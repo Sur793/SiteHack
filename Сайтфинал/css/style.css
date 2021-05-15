@@ -1,0 +1,11 @@
+body{
+	background: url(img/phon.png) no-repeat;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+.card{
+	width: 32%;
+	margin-left: 1%;
+}

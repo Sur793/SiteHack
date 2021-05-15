@@ -1,0 +1,44 @@
+body{
+ 	background: url(phon.png) no-repeat;
+	-moz-background-size: 100%;
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+}
+header{
+	margin: 20px;
+}
+.dws-menu *{
+	margin:0;
+	padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+	justify-content: center;
+}
+.dws-menu > ul li a{
+	display: block;
+	font-size: 30px;
+	transition: 0.5s ease;
+}
+.dws-menu > ul li{
+	position: relative;
+}
+.dws-menu > ul li > a i.fa{
+	position: absolute;
+	top: -18px;
+	right: 12px;
+}
+.dws-menu li a:hover{
+	color: blue;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: 0.5s ease;
+}
+.dws-menu li ul{
+	position: absolute;
+	min-width: 20px;
+}
+
