@@ -13,6 +13,7 @@
 		echo "Неподустимый пароль";
 		exit();
 	}
+		$password = md5($password."opopopqwerty");
 
 	$mysql = new mysqli('localhost', 'root', 'root', 'register-bd');
 	$mysql->query("INSERT INTO `user` (`login`, `password`, `name`) VALUES('$login', '$password', '$name')");

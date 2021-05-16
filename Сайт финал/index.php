@@ -23,7 +23,7 @@
             <h4 class="my-0 font-weight-normal">IT-центр</h4>
           </div>
           <div class="card-body">
-          	 <img src="img/<?php echo ($i+1) ?>.jpg" class="img-thumbnail">
+          	 <img src="img/<?php echo ($i+1) ?>.jpg" class="img-thumbnail" style="height: 200px;">
             <ul class="list-unstyled mt-3 mb-4">
               <li>IT-парк</li>
               <li>Проходит финал хакатона</li>

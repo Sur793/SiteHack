@@ -72,3 +72,14 @@ body{
 .kiki:hover{
 	color: #C0C0C0;
 }
+.kaki{
+	display: block;
+	padding: 0 0 30px;
+	text-align: center;
+	text-decoration: none;
+	transition: .3s;
+	color: white;
+}
+.kaki:hover{
+	color: #C0C0C0;
+}

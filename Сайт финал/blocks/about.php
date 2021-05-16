@@ -15,7 +15,7 @@
     <h3>Опишите свой заказ</h3><br>
   <form action="check.php" method="post">
     <input class="form-control" type="email" name="email" placeholder="Ваш Email"><br>
-    <textarea name="Message" class="form-control" placeholder="Сообщение..."></textarea><br>
+    <textarea name="message" class="form-control" placeholder="Сообщение..."></textarea><br>
     <button type="submit" name="send" class="btn btn-success">Отправить</button>
   </form>
 </div>

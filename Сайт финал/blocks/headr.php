@@ -3,20 +3,16 @@
         	<h5 style="margin-left: 5px; color: white;" class="my-0 mr-md-auto font-weight-normal">Саха цифра</h5>
             <header>
         	<nav class="my-2 my-md-0 mr-md-3 dws-menu">
-               <ul>
-                <li><a href="#"><i class="fa fa-th-list"></i></a>
                     <ul>
-                <i class="fa fa-envelope-open"></i><a class="p-2 text-dark" href="blocks/menu.php"></a>
-                <i class="fa fa-shopping-cart"></i><a class="p-2 text-dark" href="blocks/about.php"></a>
+            <a class="p-2 text-white" href="blocks/menu.php">Меню</a>
+            <a class="p-2 text-white" href="blocks/about.php">Стол заказов</a>
                     </ul>
-                </li>
-               </ul>
         	</nav>
             </header>
         	<?php
         	if($_COOKIE['user'] =='Да'):
         	?>
-        <a class="btn btn-outline-primary" href="blocks/auth.php">Кабинет пользователя</a>
+        <a class="btn btn-outline-primary" href="blocks/office.php">Кабинет пользователя</a>
          <?php else: ?>
         	<a class="btn btn-outline-primary" href="blocks/login.php">Войти</a>
          <?php endif; ?>	
